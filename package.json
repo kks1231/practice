@@ -1,0 +1,22 @@
+{
+  "name": "exam1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "http_exam1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kks1231/practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kks1231/practice/issues"
+  },
+  "homepage": "https://github.com/kks1231/practice#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

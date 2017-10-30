@@ -1,3 +1,4 @@
+/*
 const http = require('http');
 const fs = require('fs');
 const url = require('url');
@@ -11,3 +12,11 @@ http.createServer( function(request, response){
 	fs.
 }).listen(8080);
 console.log('Server Starting!');
+*/
+var express = require('express');
+
+var app = express();
+
+app.get('/', function(req, res){
+	res.send('hi exam1!!!');
+}).listen(3000);
